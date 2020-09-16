@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonDisplayTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DisplayTextView"
+        android:text="Ajouter un champ" />
+
+    <Button
+        android:id="@+id/buttonDisplayET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DisplayEditText"
+        android:text="Ajouter une entrée" />
+
+    <Button
+        android:id="@+id/buttonDisplayNewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DisplayNewButton"
+        android:text="Ajouter un bouton" />
+
+    <Button
+        android:id="@+id/buttonDisplayImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DisplayNewImage"
+        android:text="Ajouter Hisoka" />
+
+    </LinearLayout>
+</ScrollView>
